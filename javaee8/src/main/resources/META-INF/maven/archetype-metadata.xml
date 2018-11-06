@@ -7,7 +7,7 @@
 
     <fileSets>
         <fileSet filtered="true" package="false" encoding="UTF-8">
-            <directory>src/main/java</directory>
+            <directory>src/main/java/</directory>
             <includes>
                 <include>**/*.java</include>
             </includes>
@@ -15,15 +15,13 @@
         <fileSet filtered="true" package="false" encoding="UTF-8">
             <directory>src/main/resources</directory>
             <includes>
-                <include>**/*.xml</include>
-                <include>**/*.properties</include>
+                <include>**/*</include>
             </includes>
         </fileSet>
         <fileSet filtered="true" package="false" encoding="UTF-8">
             <directory>src/main/webapp</directory>
             <includes>
-                <include>**/*.xml</include>
-                <include>**/*.properties</include>
+                <include>**/*</include>
             </includes>
         </fileSet>
         <fileSet filtered="false" package="false" encoding="UTF-8">
